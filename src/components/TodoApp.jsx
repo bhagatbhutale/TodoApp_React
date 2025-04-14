@@ -8,13 +8,20 @@ const [input, setInput] = useState("");
 
 // add task
 const addTask = () => {
-  if(input.trim() === "") return;
-  setTasks([...tasks, {
-    id:Date.now(),
-    text : input,
-    complete : false
-  }])
-  setInput("")
+  if(input.trim() !== "") {
+    setTasks([
+      ...tasks,
+      {
+        id: Date.now(),
+        text: input,
+        complete: false,
+      },
+    ]);
+    setInput("");
+  } else {
+    alert("Please Enter valid Task !")
+  }
+  
 }
 
 // delete task
