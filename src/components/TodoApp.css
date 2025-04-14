@@ -1,0 +1,29 @@
+.toto_app {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.input_div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input_div input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.input_div button {
+  padding: 10px 15px;
+  background-color: rgb(255, 135, 15);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.input_div button:hover {
+  background-color: yellow;
+}

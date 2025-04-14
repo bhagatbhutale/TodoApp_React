@@ -1,0 +1,46 @@
+.todo-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-task span,
+.edit-input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.todo-task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.edit-input {
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.btns button {
+  margin-left: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+
+button {
+    padding: 10px;  
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.3s ease-in;
+    font-size: large;
+}
+
+button:hover {
+    background-color: gold;
+    color: black;
+}
