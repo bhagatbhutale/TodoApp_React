@@ -8,7 +8,7 @@ const [input, setInput] = useState("");
 
 // add task
 const addTask = () => {
-  if(input.trim() === " ") return;
+  if(input.trim() === "") return;
   setTasks([...tasks, {
     id:Date.now(),
     text : input,

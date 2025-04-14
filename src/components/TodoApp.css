@@ -12,8 +12,13 @@
 
 .input_div input {
   flex: 1;
-  padding: 10px;
+  padding: 12px;
+  border-radius: 5px;
   border: 1px solid #ccc;
+}
+
+.input_div input:hover {
+  color: black;
 }
 
 .input_div button {
